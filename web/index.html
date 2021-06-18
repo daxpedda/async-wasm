@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>test</title>
+    <script type="module">
+      import init from "./async_wasm.js";
+
+      async function run() {
+        await init();
+      }
+
+      run();
+    </script>
+  </head>
+  <body></body>
+</html>
